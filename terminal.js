@@ -51,10 +51,11 @@ async function showMenu() {
     return new Promise((resolve) => {
         console.log(`\n${COLORS.GREEN}Select an option:${COLORS.RESET}`);
         options.forEach((option, index) => {
-            console.log(`${COLORS.BLUE}${index + 1}. ${option.name}${COLORS.RESET}`);
+            console.log(`${COLORS.YELLOW}${index + 1}. ${option.name}${COLORS.RESET}`);
         });
-        console.log(`${COLORS.BLUE}${options.length + 1}. More${COLORS.RESET}`);
-        console.log(`${COLORS.BLUE}Please enter your choice (1-${options.length + 1}):${COLORS.RESET}`);
+        console.log(`${COLORS.YELLOW}${options.length + 1}. More${COLORS.RESET}`);
+        console.log(`${COLORS.YELLOW}Please enter your choice (1-${options.length + 1}):${COLORS.RESET}`);
+
 
         rl.question('> ', async (answer) => {
             const choice = parseInt(answer.trim(), 10);
@@ -67,6 +68,7 @@ async function showMenu() {
                 await execute(`rm -rf ${tempDir}`);
                 console.log(`\n${COLORS.GREEN}Repository content copied successfully!${COLORS.RESET}`);
                 console.log(`\n${COLORS.GREEN}Please Restart Your Server${COLORS.RESET}`);
+
             } else if (choice === options.length + 1) {
                 console.log(`\n${COLORS.YELLOW}More options will be available here.${COLORS.RESET}`);
             } else {
