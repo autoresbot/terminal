@@ -20,7 +20,7 @@ const rl = readline.createInterface({
 
 const options = [
     {
-        name: 'Install Script resbot',
+        name: 'Install Script Resbot (new)',
         repoUrl: 'https://github.com/autoresbot/resbot.git',
     },
     {
