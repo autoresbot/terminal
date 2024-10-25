@@ -27,6 +27,10 @@ const options = [
         name: 'Install Script jpm & pushkontak',
         repoUrl: 'https://github.com/autoresbot/script-jpm.git',
     },
+    {
+        name: 'Install Script Resbot Ai',
+        repoUrl: 'https://github.com/autoresbot/resbot-ai.git',
+    }
 ];
 
 function start(cmd) {
