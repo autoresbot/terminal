@@ -1,0 +1,12 @@
+{
+  "name": "terminal",
+  "version": "1.0.3",
+  "description": "Simple terminal script",
+  "main": "terminal.js",
+  "scripts": {
+    "start": "node terminal.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

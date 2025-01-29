@@ -1,9 +1,9 @@
-const { spawn } = require('child_process');
-const cp = require('child_process');
+const { spawn }     = require('child_process');
+const cp            = require('child_process');
 const { promisify } = require('util');
-const exec = promisify(cp.exec).bind(cp);
-const readline = require('readline');
-const path = require('path');
+const exec          = promisify(cp.exec).bind(cp);
+const readline      = require('readline');
+const path          = require('path');
 
 const COLORS = {
     RESET: '\x1b[0m',
@@ -20,7 +20,7 @@ const rl = readline.createInterface({
 
 const options = [
     {
-        name: 'Install Script Resbot (new)',
+        name: 'Install Script Resbot 4.0 (new)',
         repoUrl: 'https://github.com/autoresbot/resbot.git',
     },
     {

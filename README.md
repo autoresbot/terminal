@@ -8,8 +8,8 @@ Script Simple Terminal [Autoresbot](https://autoresbot.com/download)
 
 ## Informasi Versi
 
-- **Versi:** Terminal 1.1
-- **Update Terakhir:** 14 Juli 2024, 00:00 WIB
+- **Versi:** Terminal 1.0.3
+- **Update Terakhir:** 29 Januari 2025, 00:00 WIB
 - **Website:** [autoresbot.com](https://autoresbot.com)
 
 ## Fitur
