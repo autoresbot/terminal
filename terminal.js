@@ -20,12 +20,8 @@ const rl = readline.createInterface({
 
 const options = [
     {
-        name: 'Install Script Resbot 4.0 (new)',
-        repoUrl: 'https://github.com/autoresbot/resbot.git',
-    },
-    {
-        name: 'Install Script jpm & pushkontak',
-        repoUrl: 'https://github.com/autoresbot/script-jpm.git',
+        name: 'Install Script Resbot MD',
+        repoUrl: 'https://github.com/autoresbot/resbot-md.git',
     },
     {
         name: 'Install Script Resbot Ai',
@@ -47,7 +43,7 @@ async function execute(cmd) {
     try {
         await exec(cmd);
     } catch (error) {
-        console.error(`\n${COLORS.RED}Failed to execute command ${cmd}:${COLORS.RESET}`, error);
+        console.error(`\n${COLORS.RED}Failed to execute command ${cmd}:${COLORS.RESET}`);
     }
 }
 
